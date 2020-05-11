@@ -1,0 +1,14 @@
+# Write your code here
+import random
+
+guess_list = ["python", "java", "kotlin", "javascript"]
+
+print("H A N G M A N")
+print("The game will be available soon.")
+
+guessed_word = input("Guess the word: ")
+
+if guessed_word == random.choice(guess_list):
+    print("You survived!")
+else:
+    print("You are hanged!")
